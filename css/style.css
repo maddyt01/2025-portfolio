@@ -83,6 +83,36 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /* 
+ * Portfolio Layout & Typography
+ */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #fdf6f0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.2rem;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 /* 
 * Project Card Styling 
 */
@@ -203,7 +233,6 @@ textarea {
     font-size: 0.95rem;
   }
 }
-
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
