@@ -23,10 +23,36 @@
 </head>
 
 <body>
+   <!-- NAVIGATION -->
+  <nav class="nav-bar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <a href="#home">MT</a>
+      </div>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#blog" class="nav-link">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+      <div class="nav-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
 
-  <!-- Add your site or application content here -->
    <!-- HEADER -->
-  <header>
+  <header id ="home">
     <h1>Madeline Thompson</h1>
     <p>Creator • Software Engineer • Gender Theorist</p>
   </header>
@@ -72,10 +98,43 @@
     💻 <a href="https://github.com/GlimmerLabs/MIST" target="_blank">Source Code on GitHub</a>
   </p>
 </div>
-
-
 </section>
 
+  <!-- BLOG SECTION -->
+  <section id="blog">
+    <h2>Blog & Writings</h2>
+    <div class="blog-grid">
+      <article class="blog-card">
+        <div class="blog-meta">
+          <span class="blog-date">December 2024</span>
+          <span class="blog-category">Tech</span>
+        </div>
+        <h3>Building Inclusive Design Systems</h3>
+        <p>Exploring how to create design systems that center accessibility and inclusion from the ground up...</p>
+        <a href="#" class="blog-link">Read more →</a>
+      </article>
+
+      <article class="blog-card">
+        <div class="blog-meta">
+          <span class="blog-date">November 2024</span>
+          <span class="blog-category">Gender Studies</span>
+        </div>
+        <h3>Technology and Gender: A Critical Analysis</h3>
+        <p>Examining the intersection of gender theory and technological development in modern society...</p>
+        <a href="#" class="blog-link">Read more →</a>
+      </article>
+
+      <article class="blog-card">
+        <div class="blog-meta">
+          <span class="blog-date">October 2024</span>
+          <span class="blog-category">Development</span>
+        </div>
+        <h3>My Journey from Student to Tokyo Tech Scene</h3>
+        <p>Reflections on transitioning from academic life at Grinnell to working in Tokyo's tech industry...</p>
+        <a href="#" class="blog-link">Read more →</a>
+      </article>
+    </div>
+  </section>
 
   <!-- CONTACT -->
   <section id="contact">
@@ -87,7 +146,7 @@
     </p>
   </section>
 
-  <script src="script.js"></script>
+  <script src="app.js"></script>
 
 </body>
 
