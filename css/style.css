@@ -88,7 +88,7 @@ textarea {
  */
 body {
   font-family: Arial, sans-serif;
-  max-width: 700px;
+ 
   margin: auto;
   padding: 2rem;
   background-color: #fdf6f0;
@@ -157,13 +157,13 @@ a:hover {
 }
 
 .nav-container {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
+  width: 100%;
 }
 
 .nav-brand a {
@@ -188,6 +188,7 @@ a:hover {
 
 .nav-link {
   color: #333;
+  width: auto;
   text-decoration: none;
   font-weight: 500;
   padding: 0.5rem 0;
